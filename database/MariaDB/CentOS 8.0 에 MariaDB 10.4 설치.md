@@ -41,7 +41,7 @@ dnf update
 
 dnf --disablerepo=AppStream install MariaDB-server MariaDB-client
 
-<hr>>
+<hr>
 
 ## root 사용자 설정
 
