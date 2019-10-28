@@ -12,6 +12,8 @@ development tools 는 개발을 할 때 필요한 툴들이다.<br>
 <pre>
 # dnf groupinfo "Development Tools"
 # dnf group install "Development Tools"
-# dnf group remove "Development Tools"
+# dnf group remove "Development Tools"   # 삭제할 때 사용
+
+# dnf install python3-devel  # python 용 설치
 </pre>
 

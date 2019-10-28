@@ -26,6 +26,8 @@ sudo dnf install MariaDB-server MariaDB-client --disablerepo=AppStream
 sudo dnf install MariaDB-devel --disablerepo=AppStream  # mariadb_config 가 필요할 때
 sudo systemctl start mariadb
 # sudo systemctl enable mariadb  # 10.4 에서는 할 필요가 없다.
+
+ln -s /usr/lib64/libmariadbclient.a /usr/lib64/libmariadb.a   # Mariadb library 링크 설정
 </pre>
 
 <hr>
