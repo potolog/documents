@@ -15,5 +15,6 @@ development tools 는 개발을 할 때 필요한 툴들이다.<br>
 # dnf group remove "Development Tools"   # 삭제할 때 사용
 
 # dnf install python3-devel  # python 용 설치
+# dnf install --allowerasing  mariadb-devel
 </pre>
 
